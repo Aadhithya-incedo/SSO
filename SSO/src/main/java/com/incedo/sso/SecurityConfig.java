@@ -16,6 +16,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 import com.incedo.sso.filter.CustomAuthenticationFilter;
 import com.incedo.sso.filter.CustomAuthorizationFilter;
+import com.incedo.sso.filter.CustomLogoutHandler;
 
 @Configuration
 public class SecurityConfig extends WebSecurityConfigurerAdapter{
